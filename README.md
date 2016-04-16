@@ -15,7 +15,8 @@ After you get your bot token, you will need your Wolfram API token. To do this s
 
 Once you have your Wolfram and Slack tokens, you need to find the ID of the channel you want your bot to respond in. You can do this by using https://api.slack.com/methods/channels.list. You need the channel ID, NOT THE NAME. The id is a string of letters and numbers. That ID goes in the "bot.py" file where the comment says "YOUR CHANNEL ID GOES HERE"
 
-Once you have all of that set up you should be able to run the bot. (NOTE: you will have to invite your bot to the channel you chose in Slack. You can do this with the "@<botname>" command within slack.
+Once you have all of that set up you should be able to run the bot. 
+(NOTE: you will have to invite your bot to the channel you chose in Slack. You can do this with the "@<botname>" command within slack.)
 
 Commands are issued with a "?" flag. 
 
