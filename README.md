@@ -15,7 +15,7 @@ After you get your bot token, you will need your Wolfram API token. To do this s
 
 Once you have all of that set up you should be able to run the bot. 
 
-###NOTE: you will have to invite your bot to the channels you want the bot to respond in. You can do this with the "@<botname>" command within slack.
+#####NOTE: you will have to invite your bot to the channels you want the bot to respond in. You can do this with the "@<botname>" command within slack.
 
 Commands are issued with a "?" flag. 
 
