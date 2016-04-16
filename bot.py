@@ -1,6 +1,6 @@
 import time
 from slackclient import SlackClient
-from wolframtesting import askWa
+from wolframquery import askWa
 
 
 def rtChat():
