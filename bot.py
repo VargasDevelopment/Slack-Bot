@@ -13,11 +13,15 @@ def rtChat():
             if len(updates) > 0:
                 if 'text' in updates[0]:
                     words = updates[0]['text']
+                    try:
+                        channel = updates[0]['channel']
+                    except KeyError:
+                        print("Key Error")
                     words = list(words)
                     try:
                         if words[0] == '?':
                             res = handleCommand(words)
-                            sc.rtm_send_message( '''YOUR CHANNEL ID GOES HERE''', str(res))
+                            sc.rtm_send_message(channel, str(res))
                     except IndexError:
                         print("Out of bounds error")
 
