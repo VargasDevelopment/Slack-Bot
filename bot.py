@@ -4,7 +4,7 @@ from wolframtesting import askWa
 
 
 def rtChat():
-    token = #your token goes here
+    token = #YOUR TOKEN GOES HERE
     sc = SlackClient(token)
     if sc.rtm_connect():
         print("Connected!")
@@ -17,7 +17,7 @@ def rtChat():
                     try:
                         if words[0] == '?':
                             res = handleCommand(words)
-                            sc.rtm_send_message( '''your channel ID goes here''', str(res))
+                            sc.rtm_send_message( '''YOUR CHANNEL ID GOES HERE''', str(res))
                     except IndexError:
                         print("Out of bounds error")
 
