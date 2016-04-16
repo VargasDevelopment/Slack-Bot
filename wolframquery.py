@@ -3,7 +3,7 @@ import wolframalpha
 
 def askWa(question):
     print(question)
-    wolframAppID = #your Token Goes Here
+    wolframAppID = #YOUR TOKEN GOES HERE
     client = wolframalpha.Client(wolframAppID)
     response = client.query(question)
     strans = ""
