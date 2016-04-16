@@ -17,7 +17,7 @@ def rtChat():
                     try:
                         if words[0] == '?':
                             res = handleCommand(words)
-                            sc.rtm_send_message("C103SK00P", str(res))
+                            sc.rtm_send_message( '''your channel ID goes here''', str(res))
                     except IndexError:
                         print("Out of bounds error")
 
