@@ -4,7 +4,7 @@ from wolframtesting import askWa
 
 
 def rtChat():
-    token = "xoxb-34588260608-6f3EsB2aBOe24Wl4No47Irmu"
+    token = #your token goes here
     sc = SlackClient(token)
     if sc.rtm_connect():
         print("Connected!")
